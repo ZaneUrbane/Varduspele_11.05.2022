@@ -9,7 +9,7 @@ body{
 }
 #container {
     display: flex;
-    background-color: palevioletred;
+    background-color:palevioletred;
     height: 100%;
     align-items: center;
     flex-direction: column;
@@ -20,10 +20,10 @@ header{
     border-bottom:1px solid rgb(58,58,60);
 }
 .title{
-    color: green;
-    font-size: 2.5rem;
+    color:rgb(58,58,60);
+    font-size: 2.5 rem;
     font-weight:bold;
-    margin:0.4rem 0 0.4rem 0;
+    margin:0.4 rem 0 0.4 rem 0;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -37,15 +37,39 @@ header{
 
 #board {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 5px;
-    padding: 10px;
+    grid-template-columns: repeat(5, 1 fr);
+    grid-gap: 5 px;
+    padding: 10 px;
     box-sizing: border-box;
 }
 
-.square{
-    border: 2px solid rgb(58,58,60);
-    min-width: 60px;
-    min-height: 60px;
-    
+.square {
+    border: 2 px solid rgb(58,58,60);
+    min-width: 60 px;
+    min-height: 60 px;
+    font-size: 2 rem;
+    font-weight: bold;
+}
+
+#keyboard-container {
+    height: 200 px;
+}
+
+.keyboard-row{
+display: flex;
+justify-content: center;
+width: 100%;
+margin: 0 auto 8 px;
+touch-action: manipulation;
+}
+
+.keyboard-row button {
+    font-family: inherit;
+    font-weight: bold;
+    border: 0;
+    padding: 0;
+    height: 58 px;
+    cursor: pointer;
+    background-color:turquoise);
+    color:rgb (58,58,60)
 }
