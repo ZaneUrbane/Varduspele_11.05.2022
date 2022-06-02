@@ -9,7 +9,7 @@ body{
 }
 #container {
     display: flex;
-    background-color:palevioletred;
+    background-color:wheat;
     height: 100%;
     align-items: center;
     flex-direction: column;
@@ -70,6 +70,6 @@ touch-action: manipulation;
     padding: 0;
     height: 58 px;
     cursor: pointer;
-    background-color:turquoise);
+    background-color:wheat;
     color:rgb (58,58,60)
 }
