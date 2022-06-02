@@ -26,3 +26,19 @@ header{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#board-container{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+overflow: hidden;
+}
+
+#board{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap:5px;
+    padding: 10px;
+    box-sizzing: border-box;
+
+}
