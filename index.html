@@ -1,81 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vārdu spēle</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle Clone!</title>
 
     <script src="spele.js"></script>
 
-    <link rel="stylesheet" href="styles.css"/>
-    <link/>
-</head>
-    <body>
-  <div id= "container">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      
+    />
+  </head>
+  <body>
+    <div id="container">
       <div id="game">
-          <header>
-              <h1 class="title">VĀRDU SPĒLE</h1>
-            </header>
-            <div id="board-container">
-                <div id="board"></div>
-              </div>
+        <header>
+          <h1 class="title">Vārdu spēle</h1>
+        </header>
 
-            <div id="keyboard-container">
-                <div class="keyboard-row">
-                    <button data-key="a">a</button>
-                    <button data-key="ā">ā</button>
-                    <button data-key="b">b</button>
-                    <button data-key="c">c</button>
-                    <button data-key="č">č</button>
-                    <button data-key="d">d</button>
-                    <button data-key="e">e</button>
-                    <button data-key="ē">ē</button>
-                    <div class="spacer-half"></div>
-                </div>   
+        <div id="board-container">
+          <div id="board"></div>
+        </div>
 
-                <div class="keyboard-row">
-                    <button data-key="f">f</button>
-                    <button data-key="g">g</button>
-                    <button data-key="ģ">ģ</button>
-                    <button data-key="h">h</button>
-                    <button data-key="i">i</button>
-                    <button data-key="ī">ī</button>
-                    <button data-key="j">j</button>
-                    <button data-key="k">k</button>
-                    <div class="spacer-half"></div>   
-                </div>
-
-                <div class="keyboard-row">
-                    <button data-key="ķ">ķ</button>
-                    <button data-key="l">l</button>
-                    <button data-key="ļ">ļ</button>
-                    <button data-key="m">m</button>
-                    <button data-key="n">n</button>
-                    <button data-key="ņ">ņ</button>
-                    <button data-key="o">o</button>
-                    <button data-key="p">p</button>
-                    <div class="spacer-half"></div>
-                </div>
-
-                <div class="keyboard-row">
-                    <button data-key="r">r</button>
-                    <button data-key="s">s</button>
-                    <button data-key="š">š</button>
-                    <button data-key="t">t</button>
-                    <button data-key="u">u</button>
-                    <button data-key="ū">ū</button>
-                    <button data-key="v">v</button>
-                    <button data-key="z">z</button>
-                    <button data-key="ž">ž</button>
-                    <div class="spacer-half"></div>
-                </div>
-                <div class="keyboard-row">
-                    <button data-key="enter" class="wide-button">Nākamais</button>
-                    <button data-key="Del" class="wide-button">Dzēst</button>
-                </div>
-            </div>
+        <div id="keyboard-container">
+          <div class="keyboard-row">
+            <button data-key="a">a</button>
+            <button data-key="ā">ā</button>
+            <button data-key="b">b</button>
+            <button data-key="c">c</button>
+            <button data-key="č">č</button>
+            <button data-key="d">d</button>
+            <button data-key="e">e</button>
+            <button data-key="f">f</button>
+            <button data-key="g">g</button>
+            <button data-key="ģ">ģ</button>
+            <button data-key="h">h</button>
+            <button data-key="i">i</button>
+            
+          </div>
+          <div class="keyboard-row">
+            <div class="spacer-half"></div>
+            <button data-key="ī">ī</button>
+            <button data-key="j">j</button>
+            <button data-key="k">k</button>
+            <button data-key="ķ">ķ</button>
+            <button data-key="l">l</button>
+            <button data-key="ļ">ļ</button>
+            <button data-key="m">m</button>
+            <button data-key="n">n</button>
+            <button data-key="ņ">ņ</button>
+            <button data-key="o">o</button>
+            <button data-key="p">p</button>
+            <button data-key="r">r</button>
+            <div class="spacer-half"></div>
+          </div>
+          <div class="keyboard-row">
+            <button data-key="Enters" class="wide-button">Nākamais</button>
+            <button data-key="s">s</button>
+            <button data-key="š">š</button>
+            <button data-key="t">t</button>
+            <button data-key="u">u</button>
+            <button data-key="ū">ū</button>
+            <button data-key="v">v</button>
+            <button data-key="z">z</button>
+            <button data-key="ž">ž</button>
+            <button data-key="del" class="wide-button">Dzēst</button>
+          </div>
+        </div>
       </div>
     </div>
-</body>
+  </body>
 </html>
