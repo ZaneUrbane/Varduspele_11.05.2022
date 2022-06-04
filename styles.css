@@ -11,8 +11,8 @@
   }
   
   #container {
-    display:100%;
-    background-color: white;
+    display: flex;
+    background-color: black;
     height: 100%;
     align-items: center;
     flex-direction: column;
