@@ -1,4 +1,4 @@
-document.Varduspele_11.05.2022 ("workspace.code-workspace",() => {
+document.addEventListener ("DOMContentLoader",() => {
     createSquares();
   
     function createSquares() {
